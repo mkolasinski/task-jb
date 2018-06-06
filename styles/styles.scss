@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Raleway";
+    font-weight: normal;
+    src: url("./assets/fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MilluniumBold";
+    font-weight: normal;
+    src: url("./assets/fonts/Millunium Bold/Millunium-Bold.ttf") format("truetype");
+}
+
+.main_container {
+    height: 502px;
+    background-image: url("./assets/images/pp-main-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        .header {
+            margin-top: 10px;
+            display: flex;
+            .logo {
+                background-image: url("./assets/images/jb-logo.svg");
+                background-size: cover;
+                height: 32px;
+                width: 28px;
+            }
+            .main_hamburger {
+                border: 2px solid #fff;
+                width: 12px;
+                height: 18px;
+                margin-top: 5px;
+                margin-left: -10px;
+            }
+        }
+        .main_theme {
+            color: #fff;
+            font-family: "Raleway";
+            font-size: 15px;
+            margin-top: 51px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .event_theme {
+            color: #fff;
+            font-family: "MilluniumBold";
+            font-size: 38px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+}
