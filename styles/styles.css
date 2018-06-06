@@ -14,67 +14,88 @@
   font-family: "RalewayBold";
   font-weight: normal;
   src: url("./assets/fonts/Raleway/Raleway-Bold.ttf") format("truetype"); }
-.main_container {
-  height: 502px;
-  background-image: url("./assets/images/pp-main-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .main_container .header {
-    margin-top: 10px;
-    display: flex; }
-    .main_container .header .logo {
-      background-image: url("./assets/images/jb-logo.svg");
-      background-size: cover;
-      height: 32px;
-      width: 28px; }
-    .main_container .header .main_hamburger {
-      border: 2px solid #fff;
-      width: 12px;
-      height: 18px;
-      margin-top: 5px;
-      margin-left: -10px; }
-  .main_container .main_theme {
-    color: #fff;
-    font-family: "Raleway";
-    font-size: 15px;
-    margin-top: 51px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px; }
-  .main_container .event_theme {
-    color: #fff;
-    font-family: "MilluniumBold";
-    font-size: 38px;
-    text-transform: capitalize;
-    text-align: center; }
-  .main_container .event_invite {
-    color: #fff;
-    font-family: "RalewayMedium";
-    font-size: 14px;
-    text-align: center;
-    margin-top: 45px; }
-  .main_container .join {
-    background: #3EAD48;
-    width: 240px;
-    height: 42px;
-    margin: 33px auto 0;
-    display: block;
-    border: none;
-    border-radius: 5px;
-    font-family: "RalewayBold";
-    color: #fff; }
-  .main_container .round {
-    height: 30px;
-    width: 30px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    opacity: .7;
-    margin: 20px auto 0; }
-    .main_container .round .rectangle {
+body {
+  background: #F4F4F4; }
+  body .container_top {
+    height: 502px;
+    background-image: url("./assets/images/pp-main-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    body .container_top .header {
+      margin-top: 10px;
+      display: flex;
+      background: transparent; }
+      body .container_top .header .logo {
+        background-image: url("./assets/images/jb-logo.svg");
+        background-size: cover;
+        height: 32px;
+        width: 28px; }
+      body .container_top .header .main_hamburger {
+        border: 2px solid #fff;
+        width: 12px;
+        height: 18px;
+        margin-top: 5px;
+        margin-left: -10px; }
+    body .container_top .scroll {
+      position: fixed;
+      z-index: 10;
+      width: 100%;
+      height: 52px;
+      left: 0px;
+      background: #1E3066;
+      margin-top: 0;
+      padding: 10px 15px 0; }
+    body .container_top .main_theme {
+      color: #fff;
+      font-family: "Raleway";
+      font-size: 15px;
+      margin-top: 51px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+    body .container_top .event_theme {
+      color: #fff;
+      font-family: "MilluniumBold";
+      font-size: 38px;
+      text-transform: capitalize;
+      text-align: center; }
+    body .container_top .event_invite {
+      color: #fff;
+      font-family: "RalewayMedium";
+      font-size: 14px;
+      text-align: center;
+      line-height: 1.6;
+      margin-top: 45px; }
+    body .container_top .join {
+      background: #3EAD48;
+      width: 240px;
+      height: 42px;
+      margin: 22px auto 0;
+      display: block;
+      border: none;
+      border-radius: 5px;
+      font-family: "RalewayBold";
+      color: #fff; }
+    body .container_top .round {
+      height: 30px;
+      width: 30px;
       border: 1px solid #fff;
-      width: 6px;
-      height: 10px;
-      margin: 8px 0 0 7px; }
+      border-radius: 50%;
+      opacity: .7;
+      margin: 18px auto 0; }
+      body .container_top .round .rectangle {
+        border: 1px solid #fff;
+        width: 5.5px;
+        height: 9px;
+        margin: 8px 0 0 8px; }
+  body .main_section {
+    padding: 0 8px 0; }
+    body .main_section .basic_infos {
+      margin: 20px auto 0;
+      background-color: #fff;
+      width: 304px;
+      height: 470px;
+      border-radius: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
