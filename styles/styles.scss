@@ -10,6 +10,18 @@
     src: url("./assets/fonts/Millunium Bold/Millunium-Bold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "RalewayMedium";
+    font-weight: normal;
+    src: url("./assets/fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RalewayBold";
+    font-weight: normal;
+    src: url("./assets/fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
 .main_container {
     height: 502px;
     background-image: url("./assets/images/pp-main-background.jpg");
@@ -40,6 +52,7 @@
             margin-top: 51px;
             text-align: center;
             text-transform: uppercase;
+            letter-spacing: 2px;
         }
         .event_theme {
             color: #fff;
@@ -47,5 +60,37 @@
             font-size: 38px;
             text-transform: capitalize;
             text-align: center;
+        }
+        .event_invite {
+            color: #fff;
+            font-family: "RalewayMedium";
+            font-size: 14px;
+            text-align: center;
+            margin-top: 45px;
+        }
+        .join {
+            background: #3EAD48;
+            width: 240px;
+            height: 42px;
+            margin: 33px auto 0;
+            display: block;
+            border: none;
+            border-radius: 5px;
+            font-family: "RalewayBold";
+            color: #fff;
+        }
+        .round {
+            height: 30px;
+            width: 30px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            opacity: .7;
+            margin: 20px auto 0;
+                .rectangle {
+                    border: 1px solid #fff;
+                    width: 6px;
+                    height: 10px;
+                    margin: 8px 0 0 7px;
+                }
         }
 }
