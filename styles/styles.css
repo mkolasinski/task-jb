@@ -190,5 +190,23 @@ body {
       text-align: center;
       width: 95%;
       line-height: 1.2; }
+    body .awards .type_awards {
+      text-align: center; }
+      body .awards .type_awards .award p {
+        font-family: "MilluniumBold";
+        font-size: 36px;
+        color: rgba(0, 0, 0, 0.4); }
+      body .awards .type_awards .award .award_1 {
+        color: #3EAD48; }
+      body .awards .type_awards .award img {
+        height: 90px;
+        width: 90px; }
+      body .awards .type_awards .award small {
+        display: block;
+        font-family: "RalewayBold";
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.8);
+        margin: 10px auto;
+        width: 52%; }
 
 /*# sourceMappingURL=styles.css.map */

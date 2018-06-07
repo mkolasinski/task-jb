@@ -228,5 +228,30 @@ body {
                     width: 95%;
                     line-height: 1.2;
                 }
+                .type_awards {
+                    text-align: center;
+                        .award {
+                            p {
+                                font-family: "MilluniumBold";
+                                font-size: 36px;
+                                color: rgba(0,0,0,.4);
+                            }
+                            .award_1 {
+                                color: #3EAD48;
+                            }
+                            img {
+                                height: 90px;
+                                width: 90px;
+                            }
+                            small {
+                                display: block;
+                                font-family: "RalewayBold";
+                                font-size: 15px;
+                                color: rgba(0,0,0,0.8);
+                                margin: 10px auto;
+                                width: 52%;
+                            }
+                        }
+                }
         }
 }
