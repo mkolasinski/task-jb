@@ -278,34 +278,35 @@ body {
     body .main_section .form {
       width: 100%;
       height: 444px;
-      border: 1px solid;
-      background-color: #fff; }
+      background-color: #fff;
+      position: absolute; }
       body .main_section .form .title_contact {
         position: absolute;
-        margin-top: 35px;
-        padding-left: 20px;
+        margin-top: 42px;
+        padding: 0 16px 0;
         text-transform: uppercase;
         color: #707070;
         font-family: "RalewayBold";
         font-size: 15px;
-        letter-spacing: 2px; }
+        letter-spacing: 2px;
+        width: 100%; }
       body .main_section .form .title_write {
         font-family: "MilluniumBold";
         font-size: 24px;
         color: rgba(0, 0, 0, 0.8);
-        padding: 0 20px 0;
-        margin-top: 60px;
+        padding: 0 16px 0;
+        margin-top: 68px;
         position: absolute;
         line-height: 1.2;
-        width: 95%; }
+        width: 100%; }
       body .main_section .form form {
-        width: 95%;
-        margin: 40% auto; }
+        width: 90%;
+        margin: 126px 16px auto; }
         body .main_section .form form input {
           border: none;
           border-bottom: 1px solid rgba(0, 0, 0, 0.24);
-          width: 95%;
-          margin-left: 10px;
+          width: 100%;
+          margin: 0 auto;
           padding-bottom: 10px; }
         body .main_section .form form input:not(:first-child) {
           margin-top: 20px; }
@@ -313,5 +314,19 @@ body {
           font-family: "RalewayRegular";
           font-size: 14px;
           color: rgba(0, 0, 0, 0.5); }
+        body .main_section .form form textarea {
+          background-color: #F4F4F4;
+          border: 2px solid rgba(0, 0, 0, 0.24);
+          width: 100%;
+          height: 110px;
+          margin-top: 16px;
+          padding: 14px 0 0 12px;
+          font-family: "RalewayRegular";
+          font-size: 14px; }
+      body .main_section .form .sent {
+        width: 288px;
+        padding: 0;
+        border-radius: 2px;
+        margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
