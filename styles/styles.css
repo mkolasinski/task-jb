@@ -21,11 +21,12 @@
 body {
   background: #F4F4F4; }
   body .container_top {
-    height: 100vh;
+    height: 502px;
     background-image: url("./assets/images/pp-main-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    padding: 0 16px 0; }
     body .container_top .header {
       margin-top: 10px;
       display: flex;
@@ -35,12 +36,11 @@ body {
         background-size: cover;
         height: 32px;
         width: 28px; }
-      body .container_top .header .main_hamburger {
-        border: 2px solid #fff;
-        width: 12px;
-        height: 18px;
-        margin-top: 5px;
-        margin-left: -10px; }
+      body .container_top .header .hamburger {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        right: 21px; }
     body .container_top .scroll {
       position: fixed;
       z-index: 10;
@@ -77,12 +77,12 @@ body {
       border: 1px solid #fff;
       border-radius: 50%;
       opacity: .7;
-      margin: 18px auto 0; }
-      body .container_top .round .rectangle {
-        border: 1px solid #fff;
-        width: 5.5px;
-        height: 9px;
-        margin: 8px 0 0 8px; }
+      margin: 18px auto 18px;
+      text-align: center; }
+      body .container_top .round i {
+        font-size: 18px;
+        padding-top: 5px;
+        color: #fff; }
   body .join {
     background: #3EAD48;
     width: 240px;
@@ -169,13 +169,13 @@ body {
       body .main_section .daily_statistic .title_statistic {
         font-size: 15px;
         letter-spacing: 2px;
-        padding: 40px 0 0; }
+        padding: 35px 0 0; }
       body .main_section .daily_statistic .number_matches {
         padding: 20px 0 0;
         font-size: 36px; }
       body .main_section .daily_statistic .number_goals, body .main_section .daily_statistic .number_sweat {
         font-size: 36px;
-        padding: 3px 0 0; }
+        padding: 4px 0 0; }
     body .main_section .awards {
       width: 100%;
       height: 1164px;
@@ -277,9 +277,9 @@ body {
       background-position: center; }
     body .main_section .form {
       width: 100%;
-      height: 444px;
+      height: 430px;
       background-color: #fff;
-      position: absolute; }
+      display: table; }
       body .main_section .form .title_contact {
         position: absolute;
         margin-top: 42px;
@@ -307,7 +307,7 @@ body {
           border-bottom: 1px solid rgba(0, 0, 0, 0.24);
           width: 100%;
           margin: 0 auto;
-          padding-bottom: 10px; }
+          padding-bottom: 9px; }
         body .main_section .form form input:not(:first-child) {
           margin-top: 20px; }
         body .main_section .form form input::placeholder {
@@ -316,17 +316,27 @@ body {
           color: rgba(0, 0, 0, 0.5); }
         body .main_section .form form textarea {
           background-color: #F4F4F4;
-          border: 2px solid rgba(0, 0, 0, 0.24);
+          border: 1px solid rgba(0, 0, 0, 0.24);
           width: 100%;
           height: 110px;
           margin-top: 16px;
           padding: 14px 0 0 12px;
           font-family: "RalewayRegular";
-          font-size: 14px; }
+          font-size: 14px;
+          border-radius: 2px; }
       body .main_section .form .sent {
         width: 288px;
         padding: 0;
-        border-radius: 2px;
+        border-radius: 3px;
         margin-top: 10px; }
+  body footer {
+    background-color: #1E3066;
+    width: 100%;
+    height: 86px;
+    text-align: center;
+    color: #fff;
+    font-family: "RalewayMedium";
+    font-size: 15px;
+    padding-top: 32px; }
 
 /*# sourceMappingURL=styles.css.map */
