@@ -184,108 +184,199 @@ body {
                             background-position: -53px 0;
                         }
                 }
-        }
-        .daily_statistic {
-            width: 100%;
-            height: 334px;
-            background-color: #3EAD48;
-            text-align: center;
-                .raleway {
-                    font-family: "RalewayBold";
-                }
-                .millunium {
-                    font-family: "MilluniumBold";
-                }
-                span {
-                    display: block;
-                    color: #fff;
-                }
-                .title_statistic {
-                    font-size: 15px;
-                    letter-spacing: 2px;
-                    padding: 40px 0 0;
-                }
-                .number_matches {
-                    padding: 20px 0 0;
-                    font-size: 36px;
-                }
-                .number_goals, .number_sweat {
-                    font-size: 36px;
-                    padding: 3px 0 0;
-                }
-        }
-        .awards {
-            width: 100%;
-            height: 1164px;
-            background-color: #fff;
-                .title_awards {
-                    text-transform: uppercase;
-                    font-family: "RalewayBold";
-                    font-size: 15px;
-                    padding-top: 40px;
-                    color: #707070;
+                .daily_statistic {
+                    width: 100%;
+                    height: 334px;
+                    background-color: #3EAD48;
                     text-align: center;
-                    letter-spacing: 2px;
-                }
-                .info_awards {
-                    font-family: "MilluniumBold";
-                    font-size: 24px;
-                    color: rgba(0,0,0,0.8);
-                    text-align: center;
-                    width: 95%;
-                    line-height: 1.2;
-                    margin-bottom: 0;
-                }
-                .type_awards {
-                    text-align: center;
-                        .award {
-                            padding: 0;
-                            p {
-                                font-family: "MilluniumBold";
-                                font-size: 36px;
-                                color: rgba(0,0,0,.4);
-                                margin: 25px 0 0;
-                            }
-                            .award_1 {
-                                color: #3EAD48;
-                            }
-                            small {
-                                display: block;
-                                font-family: "RalewayBold";
-                                font-size: 15px;
-                                color: rgba(0,0,0,0.8);
-                                margin: 15px auto 0;
-                                width: 70%;
-                            }
+                        .raleway {
+                            font-family: "RalewayBold";
+                        }
+                        .millunium {
+                            font-family: "MilluniumBold";
+                        }
+                        span {
+                            display: block;
+                            color: #fff;
+                        }
+                        .title_statistic {
+                            font-size: 15px;
+                            letter-spacing: 2px;
+                            padding: 40px 0 0;
+                        }
+                        .number_matches {
+                            padding: 20px 0 0;
+                            font-size: 36px;
+                        }
+                        .number_goals, .number_sweat {
+                            font-size: 36px;
+                            padding: 3px 0 0;
                         }
                 }
-        }
-        .opinion {
-            width: 100%;
-            height: 444px;
-            background-color: #3EAD48;
-            margin-top: -35px;
-            z-index: -1;
-            position: relative;
-                .decorator {
-                    position: absolute;
-                    top: 55px;
-                    right: 5%;
-                        i {
-                            font-size: 88px;
-                            color: #f5f5f5;
-                            opacity: 0.25;
+                .awards {
+                    width: 100%;
+                    height: 1164px;
+                    background-color: #fff;
+                        .title_awards {
+                            text-transform: uppercase;
+                            font-family: "RalewayBold";
+                            font-size: 15px;
+                            padding-top: 40px;
+                            color: #707070;
+                            text-align: center;
+                            letter-spacing: 2px;
+                        }
+                        .info_awards {
+                            font-family: "MilluniumBold";
+                            font-size: 24px;
+                            color: rgba(0,0,0,0.8);
+                            text-align: center;
+                            width: 95%;
+                            line-height: 1.2;
+                            margin-bottom: 0;
+                        }
+                        .type_awards {
+                            text-align: center;
+                                .award {
+                                    padding: 0;
+                                    p {
+                                        font-family: "MilluniumBold";
+                                        font-size: 36px;
+                                        color: rgba(0,0,0,.4);
+                                        margin: 25px 0 0;
+                                    }
+                                    .award_1 {
+                                        color: #3EAD48;
+                                    }
+                                    small {
+                                        display: block;
+                                        font-family: "RalewayBold";
+                                        font-size: 15px;
+                                        color: rgba(0,0,0,0.8);
+                                        margin: 15px auto 0;
+                                        width: 70%;
+                                    }
+                                }
                         }
                 }
-                span {
-                    font-family: "RalewayMedium";
-                    font-size: 14px;
-                    position: absolute;
-                    width: 95%;
-                    color: #fff;
-                    padding: 10px 10px 0 10px;
-                    top: 72px;
-                    letter-spacing: 1px;
+                .opinion {
+                    width: 100%;
+                    height: 444px;
+                    background-color: #3EAD48;
+                    margin-top: -35px;
+                    z-index: -1;
+                    position: relative;
+                        .decorator {
+                            position: absolute;
+                            top: 45px;
+                            right: 5%;
+                                i {
+                                    font-size: 88px;
+                                    color: #f5f5f5;
+                                    opacity: 0.25;
+                                }
+                        }
+                        span {
+                            font-family: "RalewayMedium";
+                            font-size: 14px;
+                            position: absolute;
+                            width: 99%;
+                            color: #fff;
+                            padding: 10px 10px 0 10px;
+                            top: 55px;
+                            line-height: 1.6;
+                        }
+                        .proof {
+                            display: flex;
+                            position: absolute;
+                            margin-left: 10px;
+                            width: 95%;
+                            top: 80%;
+                                .data_proof {
+                                    background-color: #fff;
+                                    border-radius: 50%;
+                                    height: 48px;
+                                    width: 48px;
+                                        img {
+                                            border-radius: 50%;
+                                            height: 100%;
+                                            width: 100%;
+                                        }
+                                }
+                                .paragraphs {
+                                    display: table-cell;
+                                    height: auto;
+                                    padding-top: 2px;
+                                    margin-left: 15px;
+                                        .proof_p {
+                                            margin-bottom: 0;
+                                            color: #fff;
+                                            text-transform:capitalize;
+                                            font-family: "RalewayBold";
+                                            font-size: 15px;
+                                        }
+                                        .position {
+                                            text-transform: none;
+                                            font-family: "RalewayMedium";
+                                            font-size: 14px;
+                                        }
+                                }
+                        }
+        
+                }
+                .office_photo {
+                    width: 100%;
+                    height: 240px;
+                    background-image: url("../styles/assets/images/pp-office.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                .form {
+                    width: 100%;
+                    height: 444px;
+                    border: 1px solid;
+                    background-color: #fff;
+                        .title_contact {
+                            position: absolute;
+                            margin-top: 35px;
+                            padding-left: 20px;
+                            text-transform: uppercase;
+                            color: #707070;
+                            font-family: "RalewayBold";
+                            font-size: 15px;
+                            letter-spacing: 2px;
+                        }
+                        .title_write {
+                            font-family: "MilluniumBold";
+                            font-size: 24px;
+                            color: rgba(0, 0, 0, 0.8);
+                            padding: 0 20px 0;
+                            margin-top: 60px;
+                            position: absolute;
+                            line-height: 1.2;
+                            width: 95%;
+                        }
+                        form {
+                            width: 95%;
+                            margin: 40% auto;
+                            // border: 1px solid red;
+                                input {
+                                    border: none;
+                                    border-bottom: 1px solid rgba(0,0,0,0.24);
+                                    width: 95%;
+                                    margin-left: 10px;
+                                    padding-bottom: 10px;
+                                }
+                                input:not(:first-child) {
+                                    margin-top: 20px;
+                                }
+                                input::placeholder {
+                                    font-family: "RalewayRegular";
+                                    font-size: 14px;
+                                    color: rgba(0,0,0,.5);
+                                }
+                        }
                 }
         }
 }
