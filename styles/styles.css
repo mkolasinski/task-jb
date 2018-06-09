@@ -108,7 +108,10 @@ body {
       font-family: "MilluniumBold";
       font-size: 38px;
       text-transform: capitalize;
-      text-align: center; }
+      text-align: center;
+      display: block;
+      height: 60px;
+      overflow: hidden; }
     body .container_top .event_invite {
       color: #fff;
       font-family: "RalewayMedium";
@@ -384,5 +387,179 @@ body {
     font-family: "RalewayMedium";
     font-size: 15px;
     padding-top: 32px; }
+
+@media screen and (min-width: 767px) {
+  body .row {
+    margin-right: -65px; }
+    body .row .container_top .event_invite {
+      width: 590px; }
+    body .row .container_top .header {
+      margin-top: 26px; }
+      body .row .container_top .header .hamburger {
+        right: 48px; }
+      body .row .container_top .header .logo {
+        background-size: 100% 100%;
+        height: 36px;
+        width: 200px;
+        margin-left: 26px; }
+    body .row .container_top .mobile_menu {
+      width: 476px;
+      height: 640px; }
+      body .row .container_top .mobile_menu .fas.fa-times {
+        margin-top: 36px;
+        margin-right: 40px; }
+      body .row .container_top .mobile_menu .mobile_menu_elements .decoration_ul {
+        width: 64px;
+        left: -32px;
+        margin-top: 20px; }
+      body .row .container_top .mobile_menu .mobile_menu_elements .menu_hand {
+        margin-left: 72px; }
+        body .row .container_top .mobile_menu .mobile_menu_elements .menu_hand li {
+          font-size: 30px; }
+    body .row .container_top .scroll {
+      margin-top: 0;
+      padding-left: 0;
+      padding-right: 0; }
+    body .row .main_section {
+      height: 3310px; }
+      body .row .main_section .basic_infos {
+        width: 504px;
+        margin: 45px 0 0 20px; }
+        body .row .main_section .basic_infos .title_tournament {
+          padding-left: 30px; }
+        body .row .main_section .basic_infos .slogan_tournament {
+          width: 435px;
+          font-family: "MilluniumBold";
+          font-size: 32px;
+          padding-left: 30px; }
+        body .row .main_section .basic_infos .invite_tournament {
+          width: 474px;
+          margin-top: 208px;
+          padding-left: 30px;
+          font-size: 15px; }
+        body .row .main_section .basic_infos .tournament {
+          width: 320px;
+          height: 48px;
+          left: 16px;
+          margin-top: 380px;
+          margin-left: 30px;
+          font-family: "RalewayBold";
+          font-size: 15px; }
+      body .row .main_section .football_section {
+        width: 512px;
+        height: 320px;
+        margin: 0 0 0 51px; }
+        body .row .main_section .football_section .football_div {
+          background-position: center; }
+      body .row .main_section .daily_statistic {
+        width: 254px;
+        height: 454px;
+        position: absolute;
+        right: 0;
+        margin-top: -680px;
+        margin-right: 20px;
+        z-index: -1; }
+        body .row .main_section .daily_statistic .title_statistic {
+          width: 50%;
+          margin: 40px auto 0;
+          font-family: "RalewayBold";
+          font-size: 18px;
+          padding-top: 0; }
+        body .row .main_section .daily_statistic .number_matches {
+          padding: 10px 0 0; }
+        body .row .main_section .daily_statistic .title_number_matches,
+        body .row .main_section .daily_statistic .title_number_goals,
+        body .row .main_section .daily_statistic .title_number_sweat {
+          width: 100px;
+          margin: 0 auto;
+          font-size: 16px; }
+        body .row .main_section .daily_statistic .number_goals,
+        body .row .main_section .daily_statistic .number_sweat {
+          padding-top: 12px; }
+      body .row .main_section .awards {
+        position: relative;
+        margin-top: -150px;
+        z-index: -10;
+        height: 914px; }
+        body .row .main_section .awards .title_awards {
+          font-size: 18px;
+          padding-top: 235px; }
+        body .row .main_section .awards .info_awards {
+          width: 500px;
+          font-size: 32px; }
+        body .row .main_section .awards .type_awards .award img {
+          width: 80px;
+          height: 80px; }
+      body .row .main_section .join_tournament {
+        width: 600px;
+        height: 360px;
+        margin-top: 67px; }
+        body .row .main_section .join_tournament .title_tournament {
+          margin-top: 40px; }
+        body .row .main_section .join_tournament .slogan_tournament {
+          padding-top: 5px; }
+        body .row .main_section .join_tournament .invite_tournament {
+          width: 555px;
+          padding-right: 0;
+          margin-top: 170px; }
+        body .row .main_section .join_tournament .tournament {
+          margin-top: 270px;
+          font-size: 16px; }
+      body .row .main_section .opinion {
+        width: 628px;
+        height: 378px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        margin-top: -55px;
+        margin-right: 20px; }
+        body .row .main_section .opinion .decorator {
+          left: 30px;
+          margin-top: 60px; }
+          body .row .main_section .opinion .decorator i {
+            font-size: 24px; }
+        body .row .main_section .opinion span {
+          width: 514px;
+          margin: 38px 0 0 84px;
+          padding-left: 0; }
+        body .row .main_section .opinion .proof {
+          top: 290px;
+          margin-left: 84px; }
+      body .row .main_section .office_photo {
+        margin: 400px auto 0;
+        width: 728px;
+        height: 360px;
+        display: block; }
+      body .row .main_section .form {
+        width: 100%;
+        height: 1120px;
+        position: relative;
+        z-index: -100;
+        top: -600px; }
+        body .row .main_section .form .title_contact {
+          margin-top: 680px;
+          margin-left: 50px;
+          padding-left: 0;
+          font-size: 18px; }
+        body .row .main_section .form .title_write {
+          margin-top: 715px;
+          margin-left: 50px;
+          padding-left: 0;
+          font-size: 32px; }
+        body .row .main_section .form form {
+          display: inline-table;
+          margin-top: 790px;
+          margin-left: 50px; }
+          body .row .main_section .form form input {
+            width: 326px; }
+          body .row .main_section .form form input:first-child {
+            margin-right: 16px; }
+          body .row .main_section .form form textarea {
+            width: 668px; }
+        body .row .main_section .form .sent {
+          margin-left: 50px;
+          width: 356px;
+          height: 48px;
+          font-size: 16px; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -132,6 +132,9 @@ body {
                     font-size: 38px;
                     text-transform: capitalize;
                     text-align: center;
+                    display: block;
+                    height: 60px;
+                    overflow: hidden;
                 }
                 .event_invite {
                     color: #fff;
@@ -459,5 +462,237 @@ body {
             font-family: "RalewayMedium";
             font-size: 15px;
             padding-top: 32px;
+        }
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        .row {
+            margin-right: -65px;
+            .container_top {
+                .event_invite {
+                    width: 590px;
+                }
+                .header {
+                    margin-top: 26px;
+                        .hamburger {
+                            right: 48px;
+                        }
+                        .logo {
+                            background-size: 100% 100%;
+                            height: 36px;
+                            width: 200px;
+                            margin-left: 26px;
+                        }
+                }
+                .mobile_menu {
+                    width: 476px;
+                    height: 640px;
+                        .fas.fa-times {
+                            margin-top: 36px;
+                            margin-right: 40px;
+                        }
+                        .mobile_menu_elements {
+                            .decoration_ul {
+                                width: 64px;
+                                left: -32px;
+                                margin-top: 20px;
+                            }
+                            .menu_hand {
+                                margin-left: 72px;
+                                    li {
+                                        font-size: 30px;
+                                    }
+                            }
+                        }
+                }
+                .scroll {
+                    margin-top: 0;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+            .main_section {
+                height: 3310px;
+                .basic_infos {
+                    width: 504px;
+                    margin: 45px 0 0 20px;
+                        .title_tournament {
+                            padding-left: 30px;
+                        }
+                        .slogan_tournament {
+                            width: 435px;
+                            font-family: "MilluniumBold";
+                            font-size: 32px;
+                            padding-left: 30px;
+                        }
+                        .invite_tournament {
+                            width: 474px;
+                            margin-top: 208px;
+                            padding-left: 30px;
+                            font-size: 15px;
+                        }
+                        .tournament {
+                            width: 320px;
+                            height: 48px;
+                            left: 16px;
+                            margin-top: 380px;
+                            margin-left: 30px;
+                            font-family: "RalewayBold";
+                            font-size: 15px;
+                        }
+                }
+                .football_section {
+                    width: 512px;
+                    height: 320px;
+                    margin: 0 0 0 51px;
+                        .football_div {
+                            background-position: center;
+                        }
+                }
+                .daily_statistic {
+                    width: 254px;
+                    height: 454px;
+                    position: absolute;
+                    right: 0;
+                    margin-top: -680px;
+                    margin-right: 20px;
+                    z-index: -1;
+                        .title_statistic {
+                            width: 50%;
+                            margin: 40px auto 0;
+                            font-family: "RalewayBold";
+                            font-size: 18px;
+                            padding-top: 0;
+                        }
+                        .number_matches {
+                            padding: 10px 0 0;
+                        }
+                        .title_number_matches,
+                        .title_number_goals,
+                        .title_number_sweat {
+                            width: 100px;
+                            margin: 0 auto;
+                            font-size: 16px;
+                        }
+                        .number_goals,
+                        .number_sweat {
+                            padding-top: 12px;
+                        }
+                }
+                .awards {
+                    position: relative;
+                    margin-top: -150px;
+                    z-index: -10;
+                    height: 914px;
+                        .title_awards {
+                            font-size: 18px;
+                            padding-top: 235px;
+                        }
+                        .info_awards {
+                            width: 500px;
+                            font-size: 32px;
+                        }
+                        .type_awards {
+                            .award {
+                                img {
+                                    width: 80px;
+                                    height: 80px;
+                                }
+                            }
+                        }
+                }
+                .join_tournament {
+                    width: 600px;
+                    height: 360px;
+                    margin-top: 67px;
+                        .title_tournament {
+                            margin-top: 40px;
+                        }
+                        .slogan_tournament {
+                            padding-top: 5px;
+                        }
+                        .invite_tournament {
+                            width: 555px;
+                            padding-right: 0;
+                            margin-top: 170px;
+                        }
+                        .tournament {
+                            margin-top: 270px;
+                            font-size: 16px;
+                        }
+                }
+                .opinion {
+                    width: 628px;
+                    height: 378px;
+                    position: absolute;
+                    right: 0;
+                    z-index: -1;
+                    margin-top: -55px;
+                    margin-right: 20px;
+                        .decorator {
+                            left: 30px;
+                            margin-top: 60px;
+                                i {
+                                    font-size: 24px;
+                                }
+                        }
+                        span {
+                            width: 514px;
+                            margin: 38px 0 0 84px;
+                            padding-left: 0;
+                        }
+                        .proof {
+                            top: 290px;
+                            margin-left: 84px;
+                        }
+                }
+                .office_photo {
+                    margin: 400px auto 0;
+                    width: 728px;
+                    height: 360px;
+                    display: block;
+                }
+                .form {
+                    width: 100%;
+                    height: 1120px;
+                    position: relative;
+                    z-index: -100;
+                    top: -600px;
+                        .title_contact {
+                            margin-top: 680px;
+                            margin-left: 50px;
+                            padding-left: 0;
+                            font-size: 18px;
+                        }
+                        .title_write {
+                            margin-top: 715px;
+                            margin-left: 50px;
+                            padding-left: 0;
+                            font-size: 32px;
+                        }
+                        form {
+                            display: inline-table;
+                            margin-top: 790px;
+                            margin-left: 50px;
+                            input {
+                                width: 326px;
+                            }
+                            input:first-child {
+                                margin-right:16px;
+                            }
+                            textarea {
+                                width: 668px;
+                            }
+                        }
+                        .sent {
+                            margin-left: 50px;
+                            width: 356px;
+                            height: 48px;
+                            font-size: 16px;
+                        }
+                }
+            }
+        }
         }
 }

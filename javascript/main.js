@@ -34,5 +34,5 @@ $(document).ready( function() {
         $('.overlay').on('click', function() {
             $(this).fadeOut();
             $('.mobile_menu').fadeOut();
-        })
+        });
 });
