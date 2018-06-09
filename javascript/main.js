@@ -1,13 +1,16 @@
 $(document).ready( function() {
 
-    
         $(window).scroll(function() {
             if( $(this).scrollTop() > 1 ) {
                 $('.header').addClass('scroll');
+                $('.container_top').css('height','450px');
             } else {
                 $('.header').removeClass('scroll');
+                $('.container_top').css('height','502px');
             }
         });
+
+        
 
         $('a[href^="#"]').on('click', function (event) {
 

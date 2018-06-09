@@ -44,7 +44,7 @@ body {
     body .container_top .mobile_menu {
       display: none;
       height: 530px;
-      width: 89%;
+      width: 290px;
       background: #1E3066;
       top: 0;
       right: 0;
@@ -389,177 +389,291 @@ body {
     padding-top: 32px; }
 
 @media screen and (min-width: 767px) {
-  body .row {
-    margin-right: -65px; }
-    body .row .container_top .event_invite {
-      width: 590px; }
-    body .row .container_top .header {
-      margin-top: 26px; }
-      body .row .container_top .header .hamburger {
-        right: 48px; }
-      body .row .container_top .header .logo {
-        background-size: 100% 100%;
-        height: 36px;
-        width: 200px;
-        margin-left: 26px; }
-    body .row .container_top .mobile_menu {
-      width: 476px;
-      height: 640px; }
-      body .row .container_top .mobile_menu .fas.fa-times {
-        margin-top: 36px;
-        margin-right: 40px; }
-      body .row .container_top .mobile_menu .mobile_menu_elements .decoration_ul {
-        width: 64px;
-        left: -32px;
-        margin-top: 20px; }
-      body .row .container_top .mobile_menu .mobile_menu_elements .menu_hand {
-        margin-left: 72px; }
-        body .row .container_top .mobile_menu .mobile_menu_elements .menu_hand li {
-          font-size: 30px; }
-    body .row .container_top .scroll {
+  body .container_top .event_invite {
+    width: 590px; }
+  body .container_top .header {
+    margin-top: 26px; }
+    body .container_top .header .hamburger {
+      right: 48px; }
+    body .container_top .header .logo {
+      background-size: 100% 100%;
+      background-image: url("./assets/images/jb-logo.svg");
+      height: 36px;
+      width: 200px;
+      margin-left: 26px; }
+  body .container_top .mobile_menu {
+    width: 476px;
+    height: 640px; }
+    body .container_top .mobile_menu .fas.fa-times {
+      margin-top: 36px;
+      margin-right: 40px; }
+    body .container_top .mobile_menu .mobile_menu_elements .decoration_ul {
+      width: 64px;
+      left: -32px;
+      margin-top: 20px; }
+    body .container_top .mobile_menu .mobile_menu_elements .menu_hand {
+      margin-left: 72px; }
+      body .container_top .mobile_menu .mobile_menu_elements .menu_hand li {
+        font-size: 30px; }
+  body .container_top .scroll {
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0; }
+  body .container_top .logo_scroll {
+    width: 38px;
+    margin-left: 26px;
+    background-size: cover;
+    background-image: url("./assets/images/jb-logo.svg"); }
+  body .main_section {
+    height: 3310px; }
+    body .main_section .basic_infos {
+      width: 504px;
+      margin: 45px 0 0 20px; }
+      body .main_section .basic_infos .title_tournament {
+        padding-left: 30px; }
+      body .main_section .basic_infos .slogan_tournament {
+        width: 435px;
+        font-family: "MilluniumBold";
+        font-size: 32px;
+        padding-left: 30px; }
+      body .main_section .basic_infos .invite_tournament {
+        width: 474px;
+        margin-top: 208px;
+        padding-left: 30px;
+        font-size: 15px; }
+      body .main_section .basic_infos .tournament {
+        width: 320px;
+        height: 48px;
+        left: 16px;
+        margin-top: 380px;
+        margin-left: 30px;
+        font-family: "RalewayBold";
+        font-size: 15px; }
+    body .main_section .football_section {
+      width: 512px;
+      height: 320px;
+      margin: 0 0 0 51px; }
+      body .main_section .football_section .football_div {
+        background-position: center; }
+    body .main_section .daily_statistic {
+      width: 254px;
+      height: 454px;
+      position: absolute;
+      right: 0;
+      margin-top: -680px;
+      margin-right: 20px;
+      z-index: -1; }
+      body .main_section .daily_statistic .title_statistic {
+        width: 50%;
+        margin: 40px auto 0;
+        font-family: "RalewayBold";
+        font-size: 18px;
+        padding-top: 0; }
+      body .main_section .daily_statistic .number_matches {
+        padding: 10px 0 0; }
+      body .main_section .daily_statistic .title_number_matches,
+      body .main_section .daily_statistic .title_number_goals,
+      body .main_section .daily_statistic .title_number_sweat {
+        width: 100px;
+        margin: 0 auto;
+        font-size: 16px; }
+      body .main_section .daily_statistic .number_goals,
+      body .main_section .daily_statistic .number_sweat {
+        padding-top: 12px; }
+    body .main_section .awards {
+      position: relative;
+      margin-top: -150px;
+      z-index: -10;
+      height: 914px; }
+      body .main_section .awards .title_awards {
+        font-size: 18px;
+        padding-top: 235px; }
+      body .main_section .awards .info_awards {
+        width: 500px;
+        font-size: 32px; }
+      body .main_section .awards .type_awards .award img {
+        width: 80px;
+        height: 80px; }
+    body .main_section .join_tournament {
+      width: 600px;
+      height: 360px;
+      margin-top: 67px; }
+      body .main_section .join_tournament .title_tournament {
+        margin-top: 40px; }
+      body .main_section .join_tournament .slogan_tournament {
+        padding-top: 5px; }
+      body .main_section .join_tournament .invite_tournament {
+        width: 555px;
+        padding-right: 0;
+        margin-top: 170px; }
+      body .main_section .join_tournament .tournament {
+        margin-top: 270px;
+        font-size: 16px; }
+    body .main_section .opinion {
+      width: 628px;
+      height: 378px;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      margin-top: -55px;
+      margin-right: 20px; }
+      body .main_section .opinion .decorator {
+        left: 30px;
+        margin-top: 60px; }
+        body .main_section .opinion .decorator i {
+          font-size: 24px; }
+      body .main_section .opinion span {
+        width: 514px;
+        margin: 38px 0 0 84px;
+        padding-left: 0; }
+      body .main_section .opinion .proof {
+        top: 290px;
+        margin-left: 84px; }
+    body .main_section .office_photo {
+      margin: 400px auto 0;
+      width: 728px;
+      height: 360px;
+      display: block; }
+    body .main_section .form {
+      width: 100%;
+      height: 1120px;
+      position: relative;
+      z-index: -100;
+      top: -600px; }
+      body .main_section .form .title_contact {
+        margin-top: 680px;
+        margin-left: 50px;
+        padding-left: 0;
+        font-size: 18px; }
+      body .main_section .form .title_write {
+        margin-top: 715px;
+        margin-left: 50px;
+        padding-left: 0;
+        font-size: 32px; }
+      body .main_section .form form {
+        display: inline-table;
+        margin-top: 790px;
+        margin-left: 50px; }
+        body .main_section .form form input {
+          width: 326px; }
+        body .main_section .form form input:first-child {
+          margin-right: 16px; }
+        body .main_section .form form textarea {
+          width: 668px; }
+      body .main_section .form .sent {
+        margin-left: 50px;
+        width: 356px;
+        height: 48px;
+        font-size: 16px; } }
+@media screen and (min-width: 1024px) {
+  body .container_top .header .desktop_menu {
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 15%;
+    width: 470px; }
+    body .container_top .header .desktop_menu ul {
+      display: inline-flex;
+      list-style-type: none;
+      padding: 10px 0 0 0;
+      width: 100%; }
+      body .container_top .header .desktop_menu ul li {
+        margin-right: 8px;
+        margin-left: 8px;
+        font-family: "RalewayBold";
+        font-size: 15px; }
+  body .main_section {
+    height: 2294px; }
+    body .main_section .basic_infos {
+      width: 480px;
+      height: 421px;
+      margin-left: 50px; }
+      body .main_section .basic_infos .title_tournament {
+        padding-left: 30px;
+        font-family: "RalewayBold";
+        font-size: 18px; }
+      body .main_section .basic_infos .slogan_tournament {
+        padding-left: 30px; }
+      body .main_section .basic_infos .invite_tournament {
+        margin-top: 190px; }
+      body .main_section .basic_infos .tournament {
+        margin-top: 350px;
+        left: 50px; }
+    body .main_section .football_section {
+      margin: -255px 50px 0 0;
+      float: right;
+      width: 510px;
+      height: 330px; }
+    body .main_section .daily_statistic {
+      width: 400px;
+      height: 180px;
       margin-top: 0;
-      padding-left: 0;
-      padding-right: 0; }
-    body .row .main_section {
-      height: 3310px; }
-      body .row .main_section .basic_infos {
-        width: 504px;
-        margin: 45px 0 0 20px; }
-        body .row .main_section .basic_infos .title_tournament {
-          padding-left: 30px; }
-        body .row .main_section .basic_infos .slogan_tournament {
-          width: 435px;
-          font-family: "MilluniumBold";
-          font-size: 32px;
-          padding-left: 30px; }
-        body .row .main_section .basic_infos .invite_tournament {
-          width: 474px;
-          margin-top: 208px;
-          padding-left: 30px;
-          font-size: 15px; }
-        body .row .main_section .basic_infos .tournament {
-          width: 320px;
-          height: 48px;
-          left: 16px;
-          margin-top: 380px;
-          margin-left: 30px;
-          font-family: "RalewayBold";
-          font-size: 15px; }
-      body .row .main_section .football_section {
-        width: 512px;
-        height: 320px;
-        margin: 0 0 0 51px; }
-        body .row .main_section .football_section .football_div {
-          background-position: center; }
-      body .row .main_section .daily_statistic {
-        width: 254px;
-        height: 454px;
-        position: absolute;
-        right: 0;
-        margin-top: -680px;
-        margin-right: 20px;
-        z-index: -1; }
-        body .row .main_section .daily_statistic .title_statistic {
-          width: 50%;
-          margin: 40px auto 0;
-          font-family: "RalewayBold";
-          font-size: 18px;
-          padding-top: 0; }
-        body .row .main_section .daily_statistic .number_matches {
-          padding: 10px 0 0; }
-        body .row .main_section .daily_statistic .title_number_matches,
-        body .row .main_section .daily_statistic .title_number_goals,
-        body .row .main_section .daily_statistic .title_number_sweat {
-          width: 100px;
-          margin: 0 auto;
-          font-size: 16px; }
-        body .row .main_section .daily_statistic .number_goals,
-        body .row .main_section .daily_statistic .number_sweat {
-          padding-top: 12px; }
-      body .row .main_section .awards {
-        position: relative;
-        margin-top: -150px;
-        z-index: -10;
-        height: 914px; }
-        body .row .main_section .awards .title_awards {
-          font-size: 18px;
-          padding-top: 235px; }
-        body .row .main_section .awards .info_awards {
-          width: 500px;
-          font-size: 32px; }
-        body .row .main_section .awards .type_awards .award img {
-          width: 80px;
-          height: 80px; }
-      body .row .main_section .join_tournament {
-        width: 600px;
-        height: 360px;
-        margin-top: 67px; }
-        body .row .main_section .join_tournament .title_tournament {
-          margin-top: 40px; }
-        body .row .main_section .join_tournament .slogan_tournament {
-          padding-top: 5px; }
-        body .row .main_section .join_tournament .invite_tournament {
-          width: 555px;
-          padding-right: 0;
-          margin-top: 170px; }
-        body .row .main_section .join_tournament .tournament {
-          margin-top: 270px;
-          font-size: 16px; }
-      body .row .main_section .opinion {
-        width: 628px;
-        height: 378px;
-        position: absolute;
-        right: 0;
-        z-index: -1;
-        margin-top: -55px;
-        margin-right: 20px; }
-        body .row .main_section .opinion .decorator {
-          left: 30px;
-          margin-top: 60px; }
-          body .row .main_section .opinion .decorator i {
-            font-size: 24px; }
-        body .row .main_section .opinion span {
-          width: 514px;
-          margin: 38px 0 0 84px;
-          padding-left: 0; }
-        body .row .main_section .opinion .proof {
-          top: 290px;
-          margin-left: 84px; }
-      body .row .main_section .office_photo {
-        margin: 400px auto 0;
-        width: 728px;
-        height: 360px;
-        display: block; }
-      body .row .main_section .form {
+      left: 100px; }
+      body .main_section .daily_statistic .title_statistic {
         width: 100%;
-        height: 1120px;
-        position: relative;
-        z-index: -100;
-        top: -600px; }
-        body .row .main_section .form .title_contact {
-          margin-top: 680px;
-          margin-left: 50px;
-          padding-left: 0;
-          font-size: 18px; }
-        body .row .main_section .form .title_write {
-          margin-top: 715px;
-          margin-left: 50px;
-          padding-left: 0;
-          font-size: 32px; }
-        body .row .main_section .form form {
-          display: inline-table;
-          margin-top: 790px;
-          margin-left: 50px; }
-          body .row .main_section .form form input {
-            width: 326px; }
-          body .row .main_section .form form input:first-child {
-            margin-right: 16px; }
-          body .row .main_section .form form textarea {
-            width: 668px; }
-        body .row .main_section .form .sent {
-          margin-left: 50px;
-          width: 356px;
-          height: 48px;
-          font-size: 16px; } }
+        margin-top: 20px; }
+      body .main_section .daily_statistic .elements {
+        display: flex;
+        width: 100%; }
+        body .main_section .daily_statistic .elements div {
+          width: 33%; }
+    body .main_section .awards {
+      margin-top: 30px;
+      height: 719px; }
+      body .main_section .awards .title_awards {
+        padding-top: 220px; }
+      body .main_section .awards .type_awards {
+        padding-top: 20px; }
+      body .main_section .awards .all_awards {
+        margin-left: 100px; }
+    body .main_section .basic_infos.join_tournament .invite {
+      margin-top: 160px;
+      width: 420px; }
+    body .main_section .basic_infos.join_tournament .invite_button {
+      margin-top: 280px; }
+    body .main_section .invite_section {
+      height: 380px; }
+    body .main_section .opinion {
+      margin-top: -300px;
+      height: 362px; }
+      body .main_section .opinion .decorator {
+        margin: 0 0 0 150px; }
+        body .main_section .opinion .decorator i {
+          font-size: 24px; }
+      body .main_section .opinion span {
+        padding-left: 135px;
+        top: 0;
+        padding-top: 5px; }
+      body .main_section .opinion .proof {
+        left: 135px;
+        top: 265px; }
+        body .main_section .opinion .proof .data_proof {
+          width: 64px;
+          height: 64px; }
+        body .main_section .opinion .proof .paragraphs {
+          padding-top: 10px; }
+    body .main_section .office_photo {
+      width: 440px;
+      height: 370px;
+      margin-top: 170px;
+      margin-left: 50px; }
+    body .main_section .form {
+      top: -440px;
+      height: 530px; }
+      body .main_section .form .title_contact {
+        margin: 100px 0 0 520px;
+        font-size: 18px; }
+      body .main_section .form .title_write {
+        margin: 130px 0 0 520px;
+        font-size: 32px; }
+      body .main_section .form form {
+        margin-top: 190px;
+        margin-left: 520px; }
+        body .main_section .form form input {
+          width: 227px; }
+        body .main_section .form form textarea {
+          width: 470px; }
+    body .main_section .join.sent {
+      margin: 20px 0 0 520px; } }
 
 /*# sourceMappingURL=styles.css.map */
