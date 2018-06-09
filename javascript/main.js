@@ -3,9 +3,9 @@ $(document).ready( function() {
     
         $(window).scroll(function() {
             if( $(this).scrollTop() > 1 ) {
-                $('.header').addClass('scroll')
+                $('.header').addClass('scroll');
             } else {
-                $('.header').removeClass('scroll')
+                $('.header').removeClass('scroll');
             }
         });
 
@@ -21,4 +21,18 @@ $(document).ready( function() {
             }
         });
 
+        $('.hamburger').on('click', function() {
+            $('.mobile_menu').fadeIn();
+            $('.overlay').fadeIn();
+        });
+
+        $('.fas.fa-times').on('click', function() {
+            $('.mobile_menu').fadeOut();
+            $('.overlay').fadeOut();
+        });
+
+        $('.overlay').on('click', function() {
+            $(this).fadeOut();
+            $('.mobile_menu').fadeOut();
+        })
 });

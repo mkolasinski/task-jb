@@ -41,6 +41,51 @@ body {
         font-size: 22px;
         position: absolute;
         right: 21px; }
+    body .container_top .mobile_menu {
+      display: none;
+      height: 530px;
+      width: 89%;
+      background: #1E3066;
+      top: 0;
+      right: 0;
+      z-index: 100;
+      position: fixed; }
+      body .container_top .mobile_menu i {
+        position: absolute;
+        right: 0;
+        color: #fff;
+        font-size: 22px;
+        padding-top: 10px;
+        padding-right: 21px; }
+      body .container_top .mobile_menu .mobile_menu_elements {
+        margin-top: 70px;
+        display: flex; }
+        body .container_top .mobile_menu .mobile_menu_elements .decoration_ul {
+          width: 42px;
+          height: 3px;
+          border: 1px solid #3EAD48;
+          background: #3EAD48;
+          position: absolute;
+          margin-top: 10px;
+          left: -15px; }
+      body .container_top .mobile_menu .menu_hand {
+        list-style-type: none;
+        font-family: "RalewayMedium";
+        font-size: 22px;
+        margin-left: 45px;
+        padding-left: 0; }
+        body .container_top .mobile_menu .menu_hand li {
+          color: #fff;
+          padding-bottom: 16px; }
+    body .container_top .overlay {
+      display: none;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      background-color: rgba(0, 0, 0, 0.7); }
     body .container_top .scroll {
       position: fixed;
       z-index: 10;
@@ -70,7 +115,8 @@ body {
       font-size: 14px;
       text-align: center;
       line-height: 1.6;
-      margin-top: 45px; }
+      margin: 45px auto 0;
+      width: 290px; }
     body .container_top .round {
       height: 30px;
       width: 30px;
@@ -132,7 +178,7 @@ body {
         color: rgba(0, 0, 0, 0.8); }
       body .main_section .basic_infos .tournament {
         position: absolute;
-        margin-top: 390px;
+        margin-top: 395px;
         left: 0;
         right: 0;
         width: 272px;
@@ -193,9 +239,9 @@ body {
         font-size: 24px;
         color: rgba(0, 0, 0, 0.8);
         text-align: center;
-        width: 95%;
+        width: 90%;
         line-height: 1.2;
-        margin-bottom: 0; }
+        margin: 0 auto; }
       body .main_section .awards .type_awards {
         text-align: center; }
         body .main_section .awards .type_awards .award {
@@ -233,9 +279,9 @@ body {
         font-family: "RalewayMedium";
         font-size: 14px;
         position: absolute;
-        width: 99%;
+        width: 320px;
         color: #fff;
-        padding: 10px 10px 0 10px;
+        padding: 10px 10px 0 16px;
         top: 55px;
         line-height: 1.6; }
       body .main_section .opinion .proof {
