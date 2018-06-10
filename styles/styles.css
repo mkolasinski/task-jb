@@ -571,7 +571,7 @@ body {
     display: flex;
     color: #fff;
     text-transform: uppercase;
-    margin-left: 15%;
+    margin-left: 20vw;
     width: 470px; }
     body .container_top .header .desktop_menu ul {
       display: inline-flex;
@@ -683,5 +683,63 @@ body {
           width: 470px; }
     body .main_section .join.sent {
       margin: 20px 0 0 520px; } }
+@media screen and (min-width: 1440px) {
+  body .container_top .header .desktop_menu {
+    margin-left: 32vw; }
+  body .main_section {
+    height: 2460px; }
+    body .main_section .basic_infos {
+      width: 600px;
+      margin-left: 380px; }
+      body .main_section .basic_infos .join.tournament {
+        left: 380px; }
+    body .main_section .football_section {
+      width: 692px;
+      height: 492px;
+      right: 270px; }
+    body .main_section .daily_statistic {
+      width: 500px;
+      height: 224px;
+      left: 425px; }
+      body .main_section .daily_statistic .title_statistic {
+        margin-top: 38px; }
+    body .main_section .awards {
+      margin-top: 100px; }
+      body .main_section .awards .type_awards {
+        left: 100px; }
+    body .main_section .basic_infos.join_tournament {
+      margin-top: 103px;
+      width: 610px; }
+      body .main_section .basic_infos.join_tournament .title_tournament {
+        margin-top: 51px; }
+      body .main_section .basic_infos.join_tournament .slogan_tournament {
+        width: 590px;
+        padding-top: 20px; }
+      body .main_section .basic_infos.join_tournament .invite {
+        width: 530px;
+        margin-top: 170px; }
+      body .main_section .basic_infos.join_tournament .invite_button {
+        margin-top: 275px; }
+    body .main_section .opinion {
+      margin-right: 430px; }
+    body .main_section .office_photo {
+      width: 555px;
+      height: 420px;
+      margin-top: 212px;
+      margin-left: 381px; }
+    body .main_section .form {
+      top: -505px;
+      height: 637px; }
+      body .main_section .form .title_contact {
+        margin: 115px 0 0 1000px;
+        font-size: 18px; }
+      body .main_section .form .title_write {
+        margin: 145px 0 0 1000px;
+        font-size: 32px; }
+      body .main_section .form form {
+        margin-top: 205px;
+        margin-left: 1000px; }
+    body .main_section .join.sent {
+      margin: 20px 0 0 1000px; } }
 
 /*# sourceMappingURL=styles.css.map */

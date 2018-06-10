@@ -710,7 +710,7 @@ body {
                     display: flex;
                     color: #fff;
                     text-transform: uppercase;
-                    margin-left: 15%;
+                    margin-left: 20vw;
                     width: 470px;
                         ul {
                             display: inline-flex;
@@ -861,6 +861,93 @@ body {
                 }
                 .join.sent {
                     margin: 20px 0 0 520px;
+                }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        .container_top {
+            .header {
+                .desktop_menu {
+                    margin-left: 32vw;
+                }
+            }
+        }
+        .main_section {
+            height: 2460px;
+                .basic_infos {
+                    width: 600px;
+                    margin-left: 380px;
+                        .join.tournament {
+                            left: 380px;
+                        }
+                }
+                .football_section {
+                    width: 692px;
+                    height: 492px;
+                    right: 270px;
+                }
+                .daily_statistic {
+                    width: 500px;
+                    height: 224px;
+                    left: 425px;
+                        .title_statistic {
+                            margin-top: 38px;
+                        }
+                }
+                .awards {
+                    margin-top: 100px;
+                        .type_awards {
+                            left: 100px;
+                        }
+                }
+                .basic_infos.join_tournament {
+                    margin-top: 103px;
+                    width: 610px;
+                        .title_tournament {
+                            margin-top: 51px;
+                        }
+                        .slogan_tournament {
+                            width: 590px;
+                            padding-top: 20px;
+                        }
+                        .invite {
+                            width: 530px;
+                            margin-top: 170px;
+                        }
+                        .invite_button {
+                            margin-top: 275px;
+                        }
+                }
+                .opinion {
+                    margin-right: 430px;
+                }
+                .office_photo {
+                    width: 555px;
+                    height: 420px;
+                    margin-top: 212px;
+                    margin-left: 381px;
+                }
+                .form {
+                    top: -505px;
+                    height: 637px;
+                        .title_contact {
+                            margin: 115px 0 0 1000px;
+                            font-size: 18px;
+                        }
+                        .title_write {
+                            margin: 145px 0 0 1000px;
+                            font-size: 32px;
+                        }
+                        form {
+                            margin-top: 205px;
+                            margin-left: 1000px;
+                        }
+                }
+                .join.sent {
+                    margin: 20px 0 0 1000px;
                 }
         }
     }
