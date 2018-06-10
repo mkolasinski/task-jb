@@ -70,7 +70,7 @@ body {
           left: -15px; }
       body .container_top .mobile_menu .menu_hand {
         list-style-type: none;
-        font-family: "RalewayMedium";
+        font-family: "RalewayMedium", sans-serif;
         font-size: 22px;
         margin-left: 45px;
         padding-left: 0; }
@@ -97,7 +97,7 @@ body {
       padding: 10px 15px 0; }
     body .container_top .main_theme {
       color: #fff;
-      font-family: "Raleway";
+      font-family: "Raleway", sans-serif;
       font-size: 15px;
       margin-top: 51px;
       text-align: center;
@@ -105,7 +105,7 @@ body {
       letter-spacing: 2px; }
     body .container_top .event_theme {
       color: #fff;
-      font-family: "MilluniumBold";
+      font-family: "MilluniumBold", sans-serif;
       font-size: 38px;
       text-transform: capitalize;
       text-align: center;
@@ -114,7 +114,7 @@ body {
       overflow: hidden; }
     body .container_top .event_invite {
       color: #fff;
-      font-family: "RalewayMedium";
+      font-family: "RalewayMedium", sans-serif;
       font-size: 14px;
       text-align: center;
       line-height: 1.6;
@@ -140,7 +140,7 @@ body {
     display: block;
     border: none;
     border-radius: 5px;
-    font-family: "RalewayBold";
+    font-family: "RalewayBold", sans-serif;
     color: #fff; }
   body .main_section {
     position: relative;
@@ -158,11 +158,11 @@ body {
         padding-left: 20px;
         text-transform: uppercase;
         color: #707070;
-        font-family: "RalewayBold";
+        font-family: "RalewayBold", sans-serif;
         font-size: 15px;
         letter-spacing: 2px; }
       body .main_section .basic_infos .slogan_tournament {
-        font-family: "MilluniumBold";
+        font-family: "MilluniumBold", sans-serif;
         font-size: 24px;
         color: rgba(0, 0, 0, 0.8);
         padding: 0 20px 0;
@@ -174,7 +174,7 @@ body {
         position: absolute;
         margin-top: 170px;
         padding: 0 20px 0;
-        font-family: "RalewayRegular";
+        font-family: "RalewayRegular", sans-serif;
         font-size: 14px;
         line-height: 1.6;
         width: 95%;
@@ -209,9 +209,9 @@ body {
       background-color: #3EAD48;
       text-align: center; }
       body .main_section .daily_statistic .raleway {
-        font-family: "RalewayBold"; }
+        font-family: "RalewayBold", sans-serif; }
       body .main_section .daily_statistic .millunium {
-        font-family: "MilluniumBold"; }
+        font-family: "MilluniumBold", sans-serif; }
       body .main_section .daily_statistic span {
         display: block;
         color: #fff; }
@@ -231,14 +231,14 @@ body {
       background-color: #fff; }
       body .main_section .awards .title_awards {
         text-transform: uppercase;
-        font-family: "RalewayBold";
+        font-family: "RalewayBold", sans-serif;
         font-size: 15px;
         padding-top: 40px;
         color: #707070;
         text-align: center;
         letter-spacing: 2px; }
       body .main_section .awards .info_awards {
-        font-family: "MilluniumBold";
+        font-family: "MilluniumBold", sans-serif;
         font-size: 24px;
         color: rgba(0, 0, 0, 0.8);
         text-align: center;
@@ -250,7 +250,7 @@ body {
         body .main_section .awards .type_awards .award {
           padding: 0; }
           body .main_section .awards .type_awards .award p {
-            font-family: "MilluniumBold";
+            font-family: "MilluniumBold", sans-serif;
             font-size: 36px;
             color: rgba(0, 0, 0, 0.4);
             margin: 25px 0 0; }
@@ -258,7 +258,7 @@ body {
             color: #3EAD48; }
           body .main_section .awards .type_awards .award small {
             display: block;
-            font-family: "RalewayBold";
+            font-family: "RalewayBold", sans-serif;
             font-size: 15px;
             color: rgba(0, 0, 0, 0.8);
             margin: 15px auto 0;
@@ -279,7 +279,7 @@ body {
           color: #f5f5f5;
           opacity: 0.25; }
       body .main_section .opinion span {
-        font-family: "RalewayMedium";
+        font-family: "RalewayMedium", sans-serif;
         font-size: 14px;
         position: absolute;
         width: 320px;
@@ -311,11 +311,11 @@ body {
             margin-bottom: 0;
             color: #fff;
             text-transform: capitalize;
-            font-family: "RalewayBold";
+            font-family: "RalewayBold", sans-serif;
             font-size: 15px; }
           body .main_section .opinion .proof .paragraphs .position {
             text-transform: none;
-            font-family: "RalewayMedium";
+            font-family: "RalewayMedium", sans-serif;
             font-size: 14px; }
     body .main_section .office_photo {
       width: 100%;
@@ -335,12 +335,12 @@ body {
         padding: 0 16px 0;
         text-transform: uppercase;
         color: #707070;
-        font-family: "RalewayBold";
+        font-family: "RalewayBold", sans-serif;
         font-size: 15px;
         letter-spacing: 2px;
         width: 100%; }
       body .main_section .form .title_write {
-        font-family: "MilluniumBold";
+        font-family: "MilluniumBold", sans-serif;
         font-size: 24px;
         color: rgba(0, 0, 0, 0.8);
         padding: 0 16px 0;
@@ -360,7 +360,7 @@ body {
         body .main_section .form form input:not(:first-child) {
           margin-top: 20px; }
         body .main_section .form form input::placeholder {
-          font-family: "RalewayRegular";
+          font-family: "RalewayRegular", sans-serif;
           font-size: 14px;
           color: rgba(0, 0, 0, 0.5); }
         body .main_section .form form textarea {
@@ -370,9 +370,10 @@ body {
           height: 110px;
           margin-top: 16px;
           padding: 14px 0 0 12px;
-          font-family: "RalewayRegular";
+          font-family: "RalewayRegular", sans-serif;
           font-size: 14px;
-          border-radius: 2px; }
+          border-radius: 2px;
+          display: block; }
       body .main_section .form .sent {
         width: 288px;
         padding: 0;
@@ -384,7 +385,7 @@ body {
     height: 86px;
     text-align: center;
     color: #fff;
-    font-family: "RalewayMedium";
+    font-family: "RalewayMedium", sans-serif;
     font-size: 15px;
     padding-top: 32px; }
 
@@ -433,7 +434,7 @@ body {
         padding-left: 30px; }
       body .main_section .basic_infos .slogan_tournament {
         width: 435px;
-        font-family: "MilluniumBold";
+        font-family: "MilluniumBold", sans-serif;
         font-size: 32px;
         padding-left: 30px; }
       body .main_section .basic_infos .invite_tournament {
@@ -447,7 +448,7 @@ body {
         left: 16px;
         margin-top: 380px;
         margin-left: 30px;
-        font-family: "RalewayBold";
+        font-family: "RalewayBold", sans-serif;
         font-size: 15px; }
     body .main_section .football_section {
       width: 512px;
@@ -466,7 +467,7 @@ body {
       body .main_section .daily_statistic .title_statistic {
         width: 50%;
         margin: 40px auto 0;
-        font-family: "RalewayBold";
+        font-family: "RalewayBold", sans-serif;
         font-size: 18px;
         padding-top: 0; }
       body .main_section .daily_statistic .number_matches {
@@ -580,17 +581,17 @@ body {
       body .container_top .header .desktop_menu ul li {
         margin-right: 8px;
         margin-left: 8px;
-        font-family: "RalewayBold";
+        font-family: "RalewayBold", sans-serif;
         font-size: 15px; }
   body .main_section {
     height: 2294px; }
     body .main_section .basic_infos {
       width: 480px;
       height: 421px;
-      margin-left: 50px; }
+      margin-left: 230px; }
       body .main_section .basic_infos .title_tournament {
         padding-left: 30px;
-        font-family: "RalewayBold";
+        font-family: "RalewayBold", sans-serif;
         font-size: 18px; }
       body .main_section .basic_infos .slogan_tournament {
         padding-left: 30px; }
@@ -599,16 +600,19 @@ body {
       body .main_section .basic_infos .tournament {
         margin-top: 350px;
         left: 50px; }
+      body .main_section .basic_infos .join.tournament {
+        left: 230px; }
     body .main_section .football_section {
-      margin: -255px 50px 0 0;
+      margin: -355px 50px 0 0;
       float: right;
       width: 510px;
-      height: 330px; }
+      height: 430px;
+      right: 109px; }
     body .main_section .daily_statistic {
       width: 400px;
       height: 180px;
       margin-top: 0;
-      left: 100px; }
+      left: 280px; }
       body .main_section .daily_statistic .title_statistic {
         width: 100%;
         margin-top: 20px; }
@@ -623,7 +627,9 @@ body {
       body .main_section .awards .title_awards {
         padding-top: 220px; }
       body .main_section .awards .type_awards {
-        padding-top: 20px; }
+        padding-top: 20px;
+        left: 50px;
+        position: relative; }
       body .main_section .awards .all_awards {
         margin-left: 100px; }
     body .main_section .basic_infos.join_tournament .invite {
@@ -632,9 +638,11 @@ body {
     body .main_section .basic_infos.join_tournament .invite_button {
       margin-top: 280px; }
     body .main_section .invite_section {
-      height: 380px; }
+      height: 380px;
+      margin-left: 230px; }
     body .main_section .opinion {
       margin-top: -300px;
+      margin-right: 160px;
       height: 362px; }
       body .main_section .opinion .decorator {
         margin: 0 0 0 150px; }
